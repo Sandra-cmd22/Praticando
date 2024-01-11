@@ -1,0 +1,225 @@
+/* Exemplo de media query */
+@media only screen and (max-width: 600px) {
+  /* Estilos para telas menores que 600px de largura */
+}
+
+
+body {
+  
+  max-width: 1462px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(196, 196, 196);
+    font-size: 10px;
+    padding: 20px;
+}
+
+.carrossel {
+   box-sizing: border-box 5px;
+   background-color: #e9b407;
+   
+   
+   padding: 16px;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 20px;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+
+
+}
+ .carrossel  img{
+   
+    margin: 2px;
+    border: 2px #e9b407;
+    padding: 2px;
+    align-items: center;
+    width: 280px; 
+    height: 180px; 
+    object-fit: cover;
+    aspect-ratio: 16 /9;
+    
+
+ }
+
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9b407;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+nav li {
+    display: inline-block; 
+   
+  }
+
+nav ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: flex;
+    transition: background-color .3s ease;
+    
+}
+
+nav a:hover {
+    background-color: rgb(251, 248, 248);
+    color: black;
+}
+section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 10px;
+    color: rgb(247, 179, 63);
+    cursor: pointer;
+
+    
+    
+}
+section h2:hover {
+     text-decoration: underline;
+     color: rgb(243, 218, 25);
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #d4d1d1;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 16px;
+    margin: 50px;
+}
+
+.container img {
+    width: 500px;
+    height: auto;
+}
+
+article p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.container2 {
+    display: flex;
+    box-sizing: border-box;
+    background-color: hsl(0, 2%, 59%);
+    text-align: justify;
+    padding: 16px;
+    margin: 50px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: hsl(0, 2%, 59%);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto; 
+}
+
+
+body {
+    background-image: url(imagem/leigh-cooper-h4L_KKsh0zk-unsplash.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.card {
+     
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    }
+
+    footer {
+        background-color: #e9b407;
+        padding: 20px 0;
+        text-align: center;
+      }
+      
+      .footer-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .footer-section {
+        flex: 1;
+        padding: 0 20px;
+      }
+      
+      .footer-section h3 {
+        margin-bottom: 10px;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li {
+        margin-bottom: 5px;
+      }
+      
+      .social-links {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+      }
+      
+      .social-links li {
+        margin: 0 5px;
+      }
+      
+      .social-links a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: #333;
+        
+      }
+      
+      .copyright {
+        margin-top: 20px;
+        font-size: 12px;
+      }
+     
