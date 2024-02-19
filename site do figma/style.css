@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-color: rgba(243, 254, 254, 1);
+  width: 100%;
+  height: 62px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+ 
+  box-sizing: border-box;
+  background-color: rgba(32, 76, 89, 1);
+  width: 400px;
+  height: inherit;
+  color: white;
+  font-size: 20px;
+  font-family: "Rufina", serif;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#logo img {
+  padding-left: 130px;
+  position: absolute;
+  top: 0;
+  padding-top: 2px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+nav {
+  height: 100%;
+}
+
+.lab {
+  position: absolute;
+  font-family: "Rufina", serif;
+  font-size: 33px;
+  padding-left: 199px;
+  width: 150px;
+  height: 49px;
+  color: rgba(32, 76, 89, 1);
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 120px;
+  overflow: hidden;
+}
+
+.menu {
+  padding-left: 567px;
+  
+  display: flex;
+  font-family: "Rufina", serif;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  height: inherit;
+}
+
+.menu li {
+  padding-top: 20px;
+  margin-right: 55px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  
+  text-decoration: none;
+  color: rgba(32, 76, 89, 1);
+ 
+}
+
+.informativo {
+  position: absolute;
+  top: 80px;
+  margin-top: 70px;
+  padding: 10px;
+  width: 802px;
+  height: 110px;
+  background-color: rgba(32, 76, 89, 1);
+}
+
+.informativo h2 {
+  padding-top: 20px;
+  padding-left: 104px;
+  font-family: "Rufina", serif;
+  color: rgba(243, 254, 254, 1);
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgb(243, 254, 254, 1);
+  width: 100%;
+  height: 200px;
+ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main img {
+  padding-left: 245px;
+  padding-top: 45px;
+  width: 100px;
+  height: 100px;
+}
+
+.main h1 {
+  cursor: pointer;
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 360px;
+  font-size: 20px;
+  font-family: "Rufina", serif;
+  font-style: bold;
+}
+.main h2{
+
+  cursor: pointer;
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 890px;
+  font-size: 20px;
+  font-family: "Rufina", serif;
+  font-style: bold;
+}
+.main h3 {
+
+  cursor: pointer;
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 1426px;
+  font-size: 20px;
+  font-family: "Rufina", serif;
+  font-style: bold;
+
+
+}
+
+.main p {
+  padding-left: 16px;
+  padding-top: 76px;
+  color: rgba(32, 76, 89, 1);
+
+}
+
+
+.lupa {
+  cursor: pointer;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px 20px;
+  top: -30%;
+  margin-left: 30px;
+  display: flex;
+  vertical-align: middle;
+ 
+  
+  
+}
+
+.area-cliente {
+  display: flex;
+  top: -144%;
+  position: relative;
+  cursor: pointer;
+  margin-left: 110px;
+  margin-right: 30px;
+  border: 1px solid #fff;
+  padding: 10px 44px;
+  text-align: center;
+  
+}
+
+
+.oferta {
+ position: absolute;
+ top: 620px;
+ background-color:rgba(32, 76, 89, 1) ;
+ width: 30%;
+ height: 40px;
+ text-align: center;
+ left: 1008px;
+}
+.oferta h2{
+  font-family: "Rufina", serif;
+  color: #fff; 
+  padding-top: 5px;
+ }
+
+.contrate{
+  position: absolute;
+  top: 680px;
+  background-color:rgba(32, 76, 89, 1) ;
+  width: 30%;
+  height: 90px;
+  text-align: center;
+  left: 1008px;
+  font-family: "Rufina", serif;
+  color: #fff;
+  font-size:22px;
+
+}
+.numero-destacado {
+  font-size: 40px;
+
+}
+.button { 
+
+  position: absolute;
+  top: 790px;
+  background-color:rgb(254, 253, 253) ;
+  width: 15%;
+  height: 40px;
+  text-align: center;
+  
+  left: 1110px;
+  font-family: "Rufina", serif;
+  color: rgba(32, 76, 89, 1);
+  padding-top: 20px;
+  font-size: 20px;
+  border: 3px solid rgba(32, 76, 89, 1);
+  margin-bottom: 40px;
+  padding: 10px 10px;
+  cursor: pointer;
+
+}
+
+ footer {
+ display: flex;
+ justify-content: space-around;
+ margin-top: -10px;
+ background-color: rgba(32, 76, 89, 1);
+ text-align: center;
+ padding: 20px 0;
+ overflow: hidden;
+ height: 150px;
+
+ }
+ footer h1{
+    padding-left: 50px;
+    padding-top: 28px;
+    font-family: "Rufina", serif;
+    color: #fff; 
+    font-size: 20px;
+    padding-bottom: 16px;
+
+ }
+ footer img{
+  
+  padding-top: 20px;
+  padding-left: 50px;
+  width: 60px;
+  height: 60px;
+  color:#fff
+  
+
+ }
+ footer h2{
+  position: relative;
+ 
+  padding-top: 20px;
+  color: white;
+  font-family: "Rufina", serif;
+  
+
+
+ }
+
+ footer a{
+ color: #fff;
+ padding-top: 100px;
+ 
+
+
+
+ }
+
+
+.footer-content {
+padding-top: 26px;
+text-align:justify;
+
+line-height: 1.5;
+margin-top: 0;
+font-family: "Rufina", serif;
+color: white;
+}
+.footer-content p{ 
+
+  padding-bottom:80px;
+}
+
+.redes-sociais img{
+
+ color: #fff;
+
+ width: 27px;
+ height: 27px;
+
+}
+.redes-sociais p{
+color: white;
+font-size: ;
+font-family: "Rufina", serif;
+font-size: 26px;
+padding-top: 20px;
+padding-left: 53px;
+
+}
